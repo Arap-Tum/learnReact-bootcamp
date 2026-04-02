@@ -1,0 +1,62 @@
+/* PAGE */
+.contact {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* TITLE */
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* CONTAINER */
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* FORM */
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* INPUTS */
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  font-size: 14px;
+}
+
+/* FOCUS STATE */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+/* BUTTON */
+.contact-form button {
+  background: var(--primary-color);
+  color: white;
+
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #17a589;
+}

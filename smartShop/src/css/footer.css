@@ -1,0 +1,71 @@
+/* ===============================
+   FOOTER BASE
+================================ */
+.footer {
+  background: var(--dark-color);
+  color: var(--white);
+  margin-top: 50px;
+}
+
+/* ===============================
+   CONTAINER
+================================ */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding: 40px 20px;
+
+  display: grid;
+  gap: 30px;
+}
+
+/* ===============================
+   SECTIONS
+================================ */
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* LINKS */
+.footer a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  color: var(--primary-color);
+}
+
+/* TEXT */
+.footer p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* ===============================
+   BOTTOM BAR
+================================ */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

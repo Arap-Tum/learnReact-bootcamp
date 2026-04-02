@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #1abc9c;
+  --dark-color: #1f2d3d;
+  --light-color: #f4f6f8;
+  --text-color: #333;
+  --white: #ffffff;
+}
+
+/* responsive typography */
+@media (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--light-color);
+  color: var(--text-color);
+}
+
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #1abc9c; /* teal from logo */
+  --dark-color: #1f2d3d; /* dark blue/charcoal */
+  --light-color: #f4f6f8; /* soft background */
+  --text-color: #333;
+  --white: #ffffff;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0;
+}
